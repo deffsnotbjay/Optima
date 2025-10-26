@@ -419,148 +419,149 @@ window.smartsupp||(function(d) {
     <img src="imgs/tesla.svg" alt="Logo 7">
   </div>
 </div>
-<div class="body">
-  <section id="new-feature-section">
-      <h1 class="hero-headline">Introducing</h1>
-      <h2 class="hero-subtitle">Long & Short Term Trading</h2>
-      
-      <div class="plan-selector">
-          <button class="plan-toggle selected" onclick="switchTab('long-term')">
-              <i data-lucide="trending-up"></i> Long Term
-          </button>
-          <button class="plan-toggle" onclick="switchTab('short-term')">
-              <i data-lucide="zap"></i> Short Term
-          </button>
-      </div>
-      
-      <!-- Long Term -->
-      <div id="long-term" class="plan-details visible">
-          <p class="entry-requirement">Minimum Investment: <strong>$30,000</strong></p>
-          <p class="timeframe">Duration: <strong>4-6 Months</strong></p>
-          <div class="investment-adjuster">
-              <div class="adjuster-label">Adjust Your Investment</div>
-              <input type="range" id="long-slider" min="30000" max="2000000" step="5000" value="30000">
-              
-              <div class="outcome-summary">
-                  <div class="outcome-card">
-                      <div class="outcome-title">Your Investment</div>
-                      <div class="outcome-value">$<span id="long-amount">30,000</span></div>
-                  </div>
-                  <div class="outcome-card">
-                      <div class="outcome-title">Expected Returns <span class="profit-badge">+18%</span></div>
-                      <div class="outcome-value">$<span id="long-returns">5,400</span></div>
-                  </div>
-              </div>
-              
-              <div class="payout-total">
-                  <div class="payout-label">Total Amount You'll Receive</div>
-                  <div class="payout-amount">$<span id="long-total">35,400</span></div>
-              </div>
-          </div>
-          
-          <div class="perks-showcase">
-              <h3>Premium Benefits</h3>
-              <div class="perk-feature">
-                  <i data-lucide="headphones"></i>
-                  <div class="perk-description">
-                      <strong>24/7 Priority Support</strong>
-                      <span>Dedicated manager, instant responses</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="clock"></i>
-                  <div class="perk-description">
-                      <strong>Lightning-Fast Withdrawals</strong>
-                      <span>Processed within 2 hours, guaranteed</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="shield-check"></i>
-                  <div class="perk-description">
-                      <strong>OTC for Large Withdrawals</strong>
-                      <span>Private & fee-free for $100K+</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="trophy"></i>
-                  <div class="perk-description">
-                      <strong>Exclusive Market Insights</strong>
-                      <span>Weekly reports from top analysts</span>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-      <!-- Short Term -->
-      <div id="short-term" class="plan-details">
-          <p class="entry-requirement">Minimum Investment: <strong>$7,000</strong></p>
-          <p class="timeframe">Duration: <strong>3 Weeks - 3 Months</strong></p>
-          <div class="investment-adjuster">
-              <div class="adjuster-label">Adjust Your Investment</div>
-              <input type="range" id="short-slider" min="7000" max="500000" step="1000" value="7000">
-              
-              <div class="outcome-summary">
-                  <div class="outcome-card">
-                      <div class="outcome-title">Your Investment</div>
-                      <div class="outcome-value">$<span id="short-amount">7,000</span></div>
-                  </div>
-                  <div class="outcome-card">
-                      <div class="outcome-title">Expected Returns <span class="profit-badge">+35%</span></div>
-                      <div class="outcome-value">$<span id="short-returns">2,450</span></div>
-                  </div>
-              </div>
-              
-              <div class="payout-total">
-                  <div class="payout-label">Total Amount You'll Receive</div>
-                  <div class="payout-amount">$<span id="short-total">9,450</span></div>
-              </div>
-          </div>
-          
-          <div class="perks-showcase">
-              <h3>Premium Benefits</h3>
-              <div class="perk-feature">
-                  <i data-lucide="headphones"></i>
-                  <div class="perk-description">
-                      <strong>24/7 Priority Support</strong>
-                      <span>Dedicated manager, instant responses</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="clock"></i>
-                  <div class="perk-description">
-                      <strong>Lightning-Fast Withdrawals</strong>
-                      <span>Processed within 2 hours, guaranteed</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="shield-check"></i>
-                  <div class="perk-description">
-                      <strong>OTC for Large Withdrawals</strong>
-                      <span>Private & fee-free for $50K+</span>
-                  </div>
-              </div>
-              <div class="perk-feature">
-                  <i data-lucide="zap"></i>
-                  <div class="perk-description">
-                      <strong>Real-Time Trade Signals</strong>
-                      <span>AI-powered alerts for max gains</span>
-                  </div>
-              </div>
-          </div>
-      </div>
+    <div class="body">
+    <section id="new-feature-section">
+        <h1 class="hero-headline">Introducing</h1>
+        <h2 class="hero-subtitle">Long & Short Term Trading</h2>
+        
+        <div class="plan-selector">
+            <button class="plan-toggle selected" onclick="switchTab('long-term')">
+                <i data-lucide="trending-up"></i> Long Term
+            </button>
+            <button class="plan-toggle" onclick="switchTab('short-term')">
+                <i data-lucide="zap"></i> Short Term
+            </button>
+        </div>
+        
+        <!-- Long Term -->
+        <div id="long-term" class="plan-details visible">
+            <p class="entry-requirement">Minimum Investment: <strong>$30,000</strong></p>
+            <p class="timeframe">Duration: <strong>4-6 Months</strong></p>
+            <div class="investment-adjuster">
+                <div class="adjuster-label">Adjust Your Investment</div>
+                <input type="range" id="long-slider" min="30000" max="2000000" step="5000" value="30000">
+                
+                <div class="outcome-summary">
+                    <div class="outcome-card">
+                        <div class="outcome-title">Your Investment</div>
+                        <div class="outcome-value">$<span id="long-amount">30,000</span></div>
+                    </div>
+                    <div class="outcome-card">
+                        <div class="outcome-title">Expected Returns <span class="profit-badge">+80%</span></div>
+                        <div class="outcome-value">$<span id="long-returns">24,000</span></div>
+                    </div>
+                </div>
+                
+                <div class="payout-total">
+                    <div class="payout-label">Total Amount You'll Receive</div>
+                    <div class="payout-amount">$<span id="long-total">35,400</span></div>
+                </div>
+            </div>
+            
+            <div class="perks-showcase">
+                <h3>Premium Benefits</h3>
+                <div class="perk-feature">
+                    <i data-lucide="headphones"></i>
+                    <div class="perk-description">
+                        <strong>24/7 Priority Support</strong>
+                        <span>Dedicated manager, instant responses</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="clock"></i>
+                    <div class="perk-description">
+                        <strong>Lightning-Fast Withdrawals</strong>
+                        <span>Processed within 2 hours, guaranteed</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="shield-check"></i>
+                    <div class="perk-description">
+                        <strong>OTC for Large Withdrawals</strong>
+                        <span>Private & fee-free for $100K+</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="trophy"></i>
+                    <div class="perk-description">
+                        <strong>Exclusive Market Insights</strong>
+                        <span>Weekly reports from top analysts</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Short Term -->
+        <div id="short-term" class="plan-details">
+            <p class="entry-requirement">Minimum Investment: <strong>$7,000</strong></p>
+            <p class="timeframe">Duration: <strong>3 Weeks - 3 Months</strong></p>
+            <div class="investment-adjuster">
+                <div class="adjuster-label">Adjust Your Investment</div>
+                <input type="range" id="short-slider" min="7000" max="500000" step="1000" value="7000">
+                
+                <div class="outcome-summary">
+                    <div class="outcome-card">
+                        <div class="outcome-title">Your Investment</div>
+                        <div class="outcome-value">$<span id="short-amount">7,000</span></div>
+                    </div>
+                    <div class="outcome-card">
+                        <div class="outcome-title">Expected Returns <span class="profit-badge">+95%</span></div>
+                        <div class="outcome-value">$<span id="short-returns">6,720</span></div>
+                    </div>
+                </div>
+                
+                <div class="payout-total">
+                    <div class="payout-label">Total Amount You'll Receive</div>
+                    <div class="payout-amount">$<span id="short-total">9,450</span></div>
+                </div>
+            </div>
+            
+            <div class="perks-showcase">
+                <h3>Premium Benefits</h3>
+                <div class="perk-feature">
+                    <i data-lucide="headphones"></i>
+                    <div class="perk-description">
+                        <strong>24/7 Priority Support</strong>
+                        <span>Dedicated manager, instant responses</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="clock"></i>
+                    <div class="perk-description">
+                        <strong>Lightning-Fast Withdrawals</strong>
+                        <span>Processed within 2 hours, guaranteed</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="shield-check"></i>
+                    <div class="perk-description">
+                        <strong>OTC for Large Withdrawals</strong>
+                        <span>Private & fee-free for $50K+</span>
+                    </div>
+                </div>
+                <div class="perk-feature">
+                    <i data-lucide="zap"></i>
+                    <div class="perk-description">
+                        <strong>Real-Time Trade Signals</strong>
+                        <span>AI-powered alerts for max gains</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <!-- CTA -->
-      <div class="action-invite">
-          <h3 class="invite-title">Ready to Start?</h3>
-          <p class="invite-message">Contact our team to activate your account and begin trading today.</p>
-          <a href="https://widget-page.smartsupp.com/widget/360ca7a2c3e3c3164c5a835095a2eb1050af300a">
-              <button class="invite-button" onclick="alert('Redirecting to support...')">
-                  <i data-lucide="message-circle"></i> Contact Customer Support
-              </button>
-          </a>
-      </div>
-  </section>
+        <!-- CTA -->
+        <div class="action-invite">
+            <h3 class="invite-title">Ready to Start?</h3>
+            <p class="invite-message">Contact our team to activate your account and begin trading today.</p>
+            <a href="https://widget-page.smartsupp.com/widget/360ca7a2c3e3c3164c5a835095a2eb1050af300a">
+                <button class="invite-button" onclick="alert('Redirecting to support...')">
+                    <i data-lucide="message-circle"></i> Contact Customer Support
+                </button>
+            </a>
+        </div>
+    </section>
 </div>
+
 <div class="dark-cont">
 <section class="security-section">
   <h2>Why Trade with Optima</h2>
@@ -1057,7 +1058,7 @@ window.smartsupp||(function(d) {
   </footer>
 
   <script src="script.js"></script>
-      <script>
+          <script>
         lucide.createIcons();
 
         function switchTab(tabId) {
@@ -1067,7 +1068,7 @@ window.smartsupp||(function(d) {
             event.currentTarget.classList.add('selected');
         }
 
-        // Long Term: 18% returns
+        // Long Term: 80% returns
         const longSlider = document.getElementById('long-slider');
         const longAmount = document.getElementById('long-amount');
         const longReturns = document.getElementById('long-returns');
@@ -1076,13 +1077,13 @@ window.smartsupp||(function(d) {
         longSlider.addEventListener('input', () => {
             const value = parseInt(longSlider.value);
             longAmount.textContent = value.toLocaleString();
-            const returns = Math.round(value * 0.18);
+            const returns = Math.round(value * 0.80);
             longReturns.textContent = returns.toLocaleString();
             const total = value + returns;
             longTotal.textContent = total.toLocaleString();
         });
 
-        // Short Term: 35% returns
+        // Short Term: 90% returns
         const shortSlider = document.getElementById('short-slider');
         const shortAmount = document.getElementById('short-amount');
         const shortReturns = document.getElementById('short-returns');
@@ -1091,7 +1092,7 @@ window.smartsupp||(function(d) {
         shortSlider.addEventListener('input', () => {
             const value = parseInt(shortSlider.value);
             shortAmount.textContent = value.toLocaleString();
-            const returns = Math.round(value * 0.35);
+            const returns = Math.round(value * 0.90);
             shortReturns.textContent = returns.toLocaleString();
             const total = value + returns;
             shortTotal.textContent = total.toLocaleString();
